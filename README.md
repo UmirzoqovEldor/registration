@@ -1,1 +1,1 @@
-- Mansur yangi feature qo'shdi
+- Mansur yangi featureni tuzatdim
