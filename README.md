@@ -1,1 +1,1 @@
-- Mansur yangi feature qo'shdi
+- Mansur notog'ri feature chiqaribdi. Men tuzATDIM
