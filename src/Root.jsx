@@ -1,4 +1,6 @@
-import First from "./components/first/First"
+import First from "./components/FirstPage/First"
+import Second from "./components/SecondPage/Second"
+
 import { Container } from "./root"
 
 
@@ -8,7 +10,8 @@ function Root() {
   return (
     <>
     <Container>
-    <First/>
+    {/* <First/> */}
+    <Second/>
     </Container>
      
     </>
