@@ -31,6 +31,9 @@ function First() {
         }),
       });
       if(response.ok){
+        
+        setName("")
+        setNamber("")
         alert("Successfully saved")
       }else{
         alert("Failed! Something went wrong")
@@ -68,11 +71,13 @@ function First() {
             
               <MenuInput
                 type="text"
+                value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder=" Tuliq ismingiz"
               />
               <MenuInput
                 type="number"
+                value={number}
                 onChange={(e) => setNamber(e.target.value)}
                 placeholder=" +998-94-449-02-50"
               />
